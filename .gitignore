@@ -43,3 +43,4 @@ Thumbs.db
 npbparams.h
 setparams
 vgcore.*
+.vscode*
