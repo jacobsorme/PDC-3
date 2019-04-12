@@ -15,7 +15,7 @@ void nbody(struct Body *bodies, int steps, int output_steps, int N, double G, do
 
 		t1 = omp_get_wtime();
 
-		#pragma omp parallel for
+		#pragma omp parallel for collapse(2)
 		for (int j = 0; j < N; j++) {
 			double fx = 0.0;
 			double fy = 0.0;
