@@ -59,7 +59,7 @@ void nbody(struct Body *bodies, int steps, int output_steps, int N, double G, do
 			bodies[j].position[2] += bodies[j].velocity[2] * DT;
 		}
 
-
+		#pragma omp parallel for
 		for (int j = 0; j < N; j++) {
 			bodies[j].old_position[0] = bodies[j].position[0];
 			bodies[j].old_position[1] = bodies[j].position[1];
