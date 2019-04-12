@@ -1,8 +1,9 @@
-Test(omp) = 836.523173 duration = 0.026033 ± 0.000512 ms
-Test(omp_critical) = 2495.505030 duration = 2.088865 ± 0.009031 ms
-Test(omp_atomic) = 2495.505030 duration = 0.301888 ± 0.001066 ms
-Test(omp_local) = 2495.505030 duration = 0.024200 ± 0.000695 ms
-Test(omp_padded) = 2495.505030 duration = 0.027036 ± 0.000698 ms
-Test(omp_private) = 2495.505030 duration = 0.025206 ± 0.000550 ms
-Test(omp_reduction) = 2495.505030 duration = 0.024948 ± 0.000676 ms
-Application 19645442 resources: utime ~35s, stime ~2s, Rss ~5468, inblocks ~2937, outblocks ~7665
+Max(serial) = 2495.505030 duration = 0.013973 ± 0.000208 ms
+Test(omp) = 597.335954 duration = 0.029353 ± 0.003930 ms
+Test(omp_critical) = 2495.505030 duration = 2.204586 ± 0.011493 ms
+Test(omp_atomic) = 2495.505030 duration = 0.388292 ± 0.001751 ms
+Test(omp_local) = 2495.505030 duration = 0.024114 ± 0.000523 ms
+Test(omp_padded) = 2495.505030 duration = 0.027212 ± 0.000335 ms
+Test(omp_private) = 2495.505030 duration = 0.025322 ± 0.000443 ms
+Test(omp_reduction) = 2495.505030 duration = 0.025250 ± 0.000363 ms
+Application 19646810 resources: utime ~38s, stime ~2s, Rss ~5316, inblocks ~2937, outblocks ~7665

@@ -8,11 +8,11 @@
 
 mkdir -p results
 
-for i in 5000 10000 15000 20000 25000 30000
+for i in 5000 30000
 do
 	for j in 1 2 4 8 16 32
 	do
 		export OMP_NUM_THREADS=${j}
-		aprun -d $j ./bin/sum.out -n ${i} -r 50 > results/sum_results_thread${j}_size${i}.txt 	
+		aprun -d $j ./bin/sum.out -d -n ${i} -r 50 > results/sum_results_thread${j}_size${i}.txt 	
 	done
 done
