@@ -11,14 +11,9 @@ int DFT(int idft, double* xr, double* xi, double* Xr_o, double* Xi_o, int N)
 		
 		for (int n = 0; n < N; n ++) {
 			// Real part of X[k] dikc
-			r_val += xr[n] * cos(n * k * PI2 / N) + idft * xi[n] * sin(n * k * PI2 / N);
+			Xr_o[k] += xr[n] * cos(n * k * PI2 / N) + idft * xi[n] * sin(n * k * PI2 / N);
 			// Imaginary part of X[k]
-			i_val += -idft * xr[n] * sin(n * k * PI2 / N) + xi[n] * cos(n * k * PI2 / N);
-		}
-		#pragma omp critical
-		{
-			Xr_o[k] += r_val;
-			Xi_o[k] += i_val;
+			Xi_o[k] += -idft * xr[n] * sin(n * k * PI2 / N) + xi[n] * cos(n * k * PI2 / N);
 		}
 	}
 	// normalize if you are doing IDFT
