@@ -39,7 +39,7 @@ Thumbs.db
 
 *.out
 *.bin
-*.txt
+# *.txt
 npbparams.h
 setparams
 vgcore.*
