@@ -4,9 +4,7 @@
 // idft: 1 direct DFT, -1 inverse IDFT (Inverse DFT) 
 int DFT(int idft, double* xr, double* xi, double* Xr_o, double* Xi_o, int N)
 {
-	double r_val = 0;
-	double i_val = 0;
-	#pragma omp parallel for private(r_val,i_val)
+	#pragma omp parallel for
 	for (int k = 0 ; k < N; k++) { // k := Vilket element i Xr_o och Xi_o som beräknas
 		
 		for (int n = 0; n < N; n ++) {
