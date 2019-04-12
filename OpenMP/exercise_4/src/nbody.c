@@ -15,22 +15,23 @@ void nbody(struct Body *bodies, int steps, int output_steps, int N, double G, do
 
 		t1 = omp_get_wtime();
 
-		double fx = 0.0;
-		double fy = 0.0;
-		double fz = 0.0;
-
-		double dx;
-		double dy;
-		double dz;
-
-		double f;
-		double r;
-
-		double ax;
-		double ay;
-		double az;
-		#pragma omp parallel for collapse(2) private(fx,fy,fz,dx,dy,dz,f,r,ax,ay,az)
+		#pragma omp parallel for
 		for (int j = 0; j < N; j++) {
+			double fx = 0.0;
+			double fy = 0.0;
+			double fz = 0.0;
+
+			double dx;
+			double dy;
+			double dz;
+
+			double f;
+			double r;
+
+			double ax;
+			double ay;
+			double az;
+
 			for (int k = 0; k < N; k++) {
 				if (j != k) {
 					dx = bodies[j].position[0] - bodies[k].old_position[0];
