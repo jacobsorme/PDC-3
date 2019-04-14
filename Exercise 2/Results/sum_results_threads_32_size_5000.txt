@@ -1,0 +1,9 @@
+Max(serial) = 2495.505030 duration = 0.015218 ± 0.000200 ms
+Test(omp) = 981.584496 duration = 0.059198 ± 0.008519 ms
+Test(omp_critical) = 2495.505030 duration = 1.634081 ± 0.028540 ms
+Test(omp_atomic) = 2495.505030 duration = 0.316855 ± 0.014191 ms
+Test(omp_local) = 2495.505030 duration = 0.056934 ± 0.002037 ms
+Test(omp_padded) = 2495.505030 duration = 0.050683 ± 0.001514 ms
+Test(omp_private) = 2495.505030 duration = 0.054901 ± 0.001915 ms
+Test(omp_reduction) = 2495.505030 duration = 0.055745 ± 0.001508 ms
+Application 19669498 resources: utime ~25s, stime ~19s, Rss ~8576, inblocks ~2937, outblocks ~7665
