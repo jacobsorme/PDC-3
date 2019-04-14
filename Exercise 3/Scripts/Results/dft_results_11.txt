@@ -1,0 +1,2 @@
+duration	= 1.360083±0.001682 s
+Application 19670769 resources: utime ~146s, stime ~0s, Rss ~5612, inblocks ~4683, outblocks ~8104
