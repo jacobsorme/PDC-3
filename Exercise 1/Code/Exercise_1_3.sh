@@ -12,12 +12,12 @@ mkdir -p Results_2
 
 export OMP_NUM_THREADS=32
 
-#for j in {1..5}
-#do
+for j in {1..5}
+do
         aprun -n 1 -d $OMP_NUM_THREADS ./stream_guided.out > Results_2/stream_benchmark_guided_${j}.txt
         aprun -n 1 -d $OMP_NUM_THREADS ./stream_static.out > Results_2/stream_benchmark_static_${j}.txt
         aprun -n 1 -d $OMP_NUM_THREADS ./stream_dynamic.out > Results_2/stream_benchmark_dynamic_${j}.txt
-#done
+done
 
 # Create a Matlab matrix from the benchmarks and save it to the Results_2 directory
 
@@ -49,7 +49,6 @@ echo "];" >> Results_2/matlab_matrix.m
 sed -i -e 's/\[\t/\[/g' Results_2/matlab_matrix.m
 
 # Run perf benchmarks on different scheduling
-aprun -n 1 -d $OMP_NUM_THREADS perf stat -e L1-dcache-load-misses,L1-dcache-loads,instructions,cycles ./stream_guided.out > Results_2/perf_guided.txt
-aprun -n 1 -d $OMP_NUM_THREADS perf stat -e L1-dcache-load-misses,L1-dcache-loads,instructions,cycles ./stream_static.out > Results_2/perf_static.txt
-aprun -n 1 -d $OMP_NUM_THREADS perf stat -e L1-dcache-load-misses,L1-dcache-loads,instructions,cycles ./stream_dynamic.out > Results_2/perf_dynamic.txt
-
+aprun -n 1 -d $OMP_NUM_THREADS perf stat -e L1-dcache-load-misses,L1-dcache-loads,instructions,cycles ./stream_guided.out 2>Results_2/perf_guided.txt
+aprun -n 1 -d $OMP_NUM_THREADS perf stat -e L1-dcache-load-misses,L1-dcache-loads,instructions,cycles ./stream_static.out 2>Results_2/perf_static.txt
+aprun -n 1 -d $OMP_NUM_THREADS perf stat -e L1-dcache-load-misses,L1-dcache-loads,instructions,cycles ./stream_dynamic.out 2>Results_2/perf_dynamic.txt

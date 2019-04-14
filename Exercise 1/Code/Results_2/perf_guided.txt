@@ -1,0 +1,10 @@
+
+ Performance counter stats for './stream_guided.out':
+
+       137,831,602 L1-dcache-load-misses     #  [35m 16.57%[m of all L1-dcache hits  
+       831,610,195 L1-dcache-loads                                             
+     2,825,415,550 instructions              #    0.26  insns per cycle        
+    10,799,745,093 cycles                    #    0.000 GHz                    
+
+       0.245307319 seconds time elapsed
+

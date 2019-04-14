@@ -1,0 +1,10 @@
+
+ Performance counter stats for './stream_dynamic.out':
+
+       411,013,733 L1-dcache-load-misses     #  [31m 23.15%[m of all L1-dcache hits  
+     1,775,390,752 L1-dcache-loads                                             
+     5,851,408,094 instructions              #    0.01  insns per cycle        
+   498,123,563,264 cycles                    #    0.000 GHz                    
+
+       5.646074930 seconds time elapsed
+
