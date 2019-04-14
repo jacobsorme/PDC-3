@@ -15,7 +15,7 @@ do
 	for j in {1..5}
 	do
 		export OMP_NUM_THREADS=$i
-		#aprun -n 1 -d $OMP_NUM_THREADS ./stream.out > Results_1/stream_benchmark_${i}_threads_${j}.txt
+		aprun -n 1 -d $OMP_NUM_THREADS ./stream.out > Results_1/stream_benchmark_${i}_threads_${j}.txt
 	done
 done
 
