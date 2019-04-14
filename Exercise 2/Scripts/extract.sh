@@ -2,6 +2,7 @@ echo -n "" > Results/matlab_variables.m
 for i in 5000 30000
 do
 echo "sum_results_$i = [" >> Results/matlab_variables.m
+	echo -e "\tserial\tcritical\tatomic\tlocal\tpadded\tprivate\treduction" >> Results/matlab_variables.m
 	for j in 1 2 4 8 16 32
 	do
 		echo -en "\t" >> Results/matlab_variables.m
