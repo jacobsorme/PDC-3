@@ -1,0 +1,10 @@
+
+ Performance counter stats for './stream_static.out':
+
+       137,700,474 L1-dcache-load-misses     #  [35m 16.57%[m of all L1-dcache hits  
+       831,049,452 L1-dcache-loads                                             
+     2,823,460,345 instructions              #    0.28  insns per cycle        
+    10,174,070,396 cycles                    #    0.000 GHz                    
+
+       0.191182065 seconds time elapsed
+
