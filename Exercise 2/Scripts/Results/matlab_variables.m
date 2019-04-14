@@ -1,5 +1,5 @@
 sum_results_5000 = [
-	serial	critical	atomic	local	padded	private	reduction
+	%serial	critical	atomic	local	padded	private	reduction
 	0.015210,	0.079544,	0.053485,	0.016218,	0.018671,	0.015553,	0.015551;
 	0.015218,	0.286749,	0.189583,	0.016007,	0.012941,	0.011734,	0.010941;
 	0.015215,	0.974157,	0.277698,	0.016919,	0.012420,	0.011448,	0.011232;
@@ -8,7 +8,7 @@ sum_results_5000 = [
 	0.015218,	1.634081,	0.316855,	0.056934,	0.050683,	0.054901,	0.055745;
 ];
 sum_results_30000 = [
-	serial	critical	atomic	local	padded	private	reduction
+	%serial	critical	atomic	local	padded	private	reduction
 	0.091338,	0.474320,	0.319130,	0.092837,	0.109641,	0.095803,	0.095829;
 	0.091221,	1.874700,	1.072894,	0.077195,	0.058376,	0.051000,	0.050396;
 	0.091127,	7.059876,	1.820369,	0.075753,	0.037544,	0.032418,	0.032310;
