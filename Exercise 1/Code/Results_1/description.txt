@@ -1,0 +1,1 @@
+Run the STREAM benchmark for five times and record the average values of bandwidth and its standard deviation for the copy kernel.
