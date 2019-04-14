@@ -8,6 +8,8 @@
 
 mkdir -p Results
 
+# Benchmark the sum functions for different sizes and numbers of threads and save in directory Results
+
 for i in 5000 30000
 do
 	for j in 1 2 4 8 16 32

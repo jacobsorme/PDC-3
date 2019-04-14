@@ -1,8 +1,0 @@
-Test(omp) = 3418.626097 duration = 0.058243 ± 0.002334 ms
-Test(omp_critical) = 12450.561684 duration = 3.726109 ± 0.030837 ms
-Test(omp_atomic) = 12450.561684 duration = 1.183863 ± 0.002263 ms
-Test(omp_local) = 12450.561684 duration = 0.057192 ± 0.001687 ms
-Test(omp_padded) = 12450.561684 duration = 0.029374 ± 0.000197 ms
-Test(omp_private) = 12450.561684 duration = 0.025648 ± 0.000397 ms
-Test(omp_reduction) = 12450.561684 duration = 0.025387 ± 0.000250 ms
-Application 19645493 resources: utime ~18s, stime ~2s, Rss ~5468, inblocks ~2937, outblocks ~7665

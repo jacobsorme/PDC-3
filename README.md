@@ -1,15 +1,7 @@
 # PDC-3
 This repo contains code for the third assignment in the KTH course DD2356.
 
-#### Exercise 1
-The folder **Code** contains the code files we used to complete the assignment. 
+#### Structure
+Our repo is structured so that each exercise has a separate directory.
 
-The folder **Code/Scripts** contains everything needed to run benchmarks and generate figures.
-
-#### Exercise 2
-
-#### Exercise 3
-
-#### Exercise 4
-
-#### Exercise 5
+For each exercise the folder **Code/Scripts** contain scripts for benchmarking, extracting results and creating figures.
