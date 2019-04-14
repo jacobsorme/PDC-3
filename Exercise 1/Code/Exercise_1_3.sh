@@ -12,12 +12,12 @@ mkdir -p Results_2
 
 export OMP_NUM_THREADS=32
 
-for j in {1..5}
-do
+#for j in {1..5}
+#do
         aprun -n 1 -d $OMP_NUM_THREADS ./stream_guided.out > Results_2/stream_benchmark_guided_${j}.txt
         aprun -n 1 -d $OMP_NUM_THREADS ./stream_static.out > Results_2/stream_benchmark_static_${j}.txt
         aprun -n 1 -d $OMP_NUM_THREADS ./stream_dynamic.out > Results_2/stream_benchmark_dynamic_${j}.txt
-done
+#done
 
 # Create a Matlab matrix from the benchmarks and save it to the Results_2 directory
 
@@ -29,7 +29,7 @@ do
 done
 echo "];" >> Results_2/matlab_matrix.m
 
-echo -n "stream_bandwidths_guided = [" >> Results_2/matlab_matrix.m
+echo -n "stream_bandwidths_static = [" >> Results_2/matlab_matrix.m
 for j in {1..5}
 do
         echo -ne "\t" >> Results_2/matlab_matrix.m
@@ -37,7 +37,7 @@ do
 done
 echo "];" >> Results_2/matlab_matrix.m
 
-echo -n "stream_bandwidths_guided = [" >> Results_2/matlab_matrix.m
+echo -n "stream_bandwidths_dynamic = [" >> Results_2/matlab_matrix.m
 for j in {1..5}
 do
         echo -ne "\t" >> Results_2/matlab_matrix.m
