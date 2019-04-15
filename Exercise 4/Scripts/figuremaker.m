@@ -8,7 +8,7 @@ y = [50:50:1500];
 f = figure;
 
 surf(x,y,times_nbody);
-view(25,10);
+view(45,10);
 
 xlabel("Threads")
 ylabel("Number of bodies (N)")
