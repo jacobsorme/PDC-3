@@ -203,59 +203,55 @@
     ><text x="-22.5" xml:space="preserve" y="-3" style="stroke:none;"
       >Threads</text
     ></g
-    ><g style="fill:white; text-rendering:optimizeSpeed; color-rendering:optimizeSpeed; image-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:white; color-interpolation:sRGB;"
-    ><path style="stroke:none;" d="M499 366 L499 295 L397 295 L397 366 Z"
-    /></g
-    ><g transform="translate(434,303.5)" style="font-size:10px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
-    ><text x="0" xml:space="preserve" y="3.5" style="stroke:none;"
+    ><g transform="translate(440,308)" style="font-size:9px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
+    ><text x="0" xml:space="preserve" y="3" style="stroke:none;"
       >serial</text
     ></g
     ><g style="fill:rgb(0,114,189); text-rendering:optimizeSpeed; color-rendering:optimizeSpeed; image-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(0,114,189); color-interpolation:sRGB;"
-    ><path style="stroke:none;" d="M431 308.7 L431 298.3 L401 298.3 L401 308.7 Z"
+    ><path style="stroke:none;" d="M437 312.8 L437 303.2 L407 303.2 L407 312.8 Z"
     /></g
     ><g style="text-rendering:geometricPrecision; stroke-width:0.5; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
-    ><path d="M401 308.7 L401 298.3 L431 298.3 L431 308.7 Z" style="fill:none; fill-rule:evenodd;"
+    ><path d="M407 312.8 L407 303.2 L437 303.2 L437 312.8 Z" style="fill:none; fill-rule:evenodd;"
     /></g
-    ><g transform="translate(434,317)" style="font-size:10px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
-    ><text x="0" xml:space="preserve" y="3.5" style="stroke:none;"
+    ><g transform="translate(440,320.5)" style="font-size:9px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
+    ><text x="0" xml:space="preserve" y="3" style="stroke:none;"
       >local (array)</text
     ></g
     ><g style="fill:rgb(217,83,25); text-rendering:optimizeSpeed; color-rendering:optimizeSpeed; image-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(217,83,25); color-interpolation:sRGB;"
-    ><path style="stroke:none;" d="M431 322.2 L431 311.8 L401 311.8 L401 322.2 Z"
+    ><path style="stroke:none;" d="M437 325.3 L437 315.7 L407 315.7 L407 325.3 Z"
     /></g
     ><g style="text-rendering:geometricPrecision; stroke-width:0.5; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
-    ><path d="M401 322.2 L401 311.8 L431 311.8 L431 322.2 Z" style="fill:none; fill-rule:evenodd;"
+    ><path d="M407 325.3 L407 315.7 L437 315.7 L437 325.3 Z" style="fill:none; fill-rule:evenodd;"
     /></g
-    ><g transform="translate(434,330.5)" style="font-size:10px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
-    ><text x="0" xml:space="preserve" y="3.5" style="stroke:none;"
+    ><g transform="translate(440,333)" style="font-size:9px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
+    ><text x="0" xml:space="preserve" y="3" style="stroke:none;"
       >padded</text
     ></g
     ><g style="fill:rgb(237,177,32); text-rendering:optimizeSpeed; color-rendering:optimizeSpeed; image-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(237,177,32); color-interpolation:sRGB;"
-    ><path style="stroke:none;" d="M431 335.7 L431 325.3 L401 325.3 L401 335.7 Z"
+    ><path style="stroke:none;" d="M437 337.8 L437 328.2 L407 328.2 L407 337.8 Z"
     /></g
     ><g style="text-rendering:geometricPrecision; stroke-width:0.5; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
-    ><path d="M401 335.7 L401 325.3 L431 325.3 L431 335.7 Z" style="fill:none; fill-rule:evenodd;"
+    ><path d="M407 337.8 L407 328.2 L437 328.2 L437 337.8 Z" style="fill:none; fill-rule:evenodd;"
     /></g
-    ><g transform="translate(434,344)" style="font-size:10px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
-    ><text x="0" xml:space="preserve" y="3.5" style="stroke:none;"
+    ><g transform="translate(440,345.5)" style="font-size:9px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
+    ><text x="0" xml:space="preserve" y="3" style="stroke:none;"
       >private (for)</text
     ></g
     ><g style="fill:rgb(126,47,142); text-rendering:optimizeSpeed; color-rendering:optimizeSpeed; image-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(126,47,142); color-interpolation:sRGB;"
-    ><path style="stroke:none;" d="M431 349.2 L431 338.8 L401 338.8 L401 349.2 Z"
+    ><path style="stroke:none;" d="M437 350.3 L437 340.7 L407 340.7 L407 350.3 Z"
     /></g
     ><g style="text-rendering:geometricPrecision; stroke-width:0.5; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
-    ><path d="M401 349.2 L401 338.8 L431 338.8 L431 349.2 Z" style="fill:none; fill-rule:evenodd;"
+    ><path d="M407 350.3 L407 340.7 L437 340.7 L437 350.3 Z" style="fill:none; fill-rule:evenodd;"
     /></g
-    ><g transform="translate(434,357.5)" style="font-size:10px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
-    ><text x="0" xml:space="preserve" y="3.5" style="stroke:none;"
+    ><g transform="translate(440,358)" style="font-size:9px; text-rendering:geometricPrecision; color-rendering:optimizeQuality; image-rendering:optimizeQuality; font-family:'SansSerif'; color-interpolation:linearRGB;"
+    ><text x="0" xml:space="preserve" y="3" style="stroke:none;"
       >reduction</text
     ></g
     ><g style="fill:rgb(119,172,48); text-rendering:optimizeSpeed; color-rendering:optimizeSpeed; image-rendering:optimizeSpeed; shape-rendering:crispEdges; stroke:rgb(119,172,48); color-interpolation:sRGB;"
-    ><path style="stroke:none;" d="M431 362.7 L431 352.3 L401 352.3 L401 362.7 Z"
+    ><path style="stroke:none;" d="M437 362.8 L437 353.2 L407 353.2 L407 362.8 Z"
     /></g
     ><g style="text-rendering:geometricPrecision; stroke-width:0.5; color-interpolation:linearRGB; color-rendering:optimizeQuality; stroke-linecap:butt; image-rendering:optimizeQuality;"
-    ><path d="M401 362.7 L401 352.3 L431 352.3 L431 362.7 Z" style="fill:none; fill-rule:evenodd;"
-      /><path d="M397 366 L397 295 L499 295 L499 366 Z" style="fill:none; fill-rule:evenodd; stroke:rgb(38,38,38);"
+    ><path d="M407 362.8 L407 353.2 L437 353.2 L437 362.8 Z" style="fill:none; fill-rule:evenodd;"
     /></g
   ></g
 ></svg
