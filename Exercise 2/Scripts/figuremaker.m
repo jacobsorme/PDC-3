@@ -12,8 +12,8 @@ barh(bar_labels,sum_results_5000);
 xlabel("Time");
 ylabel("Threads");
 
-legend("serial", "critical", "atomic", "local (array)", "padded", "private (for)", "reduction","Location","SouthEast");
-saveas(f,'fig1','svg');
+set(legend("serial", "critical", "atomic", "local (array)", "padded", "private (for)", "reduction","Location","SouthEast"),"FontSize",10);
+saveas(f,'sum_fig_5000','svg');
 
 %% Size 30000
 clf;
@@ -27,8 +27,8 @@ barh(bar_labels,sum_results_30000);
 xlabel("Time");
 ylabel("Threads");
 
-legend("serial", "critical", "atomic", "local (array)", "padded", "private (for)", "reduction","Location","SouthEast");
-saveas(f,'fig2','svg')
+set(legend("serial", "critical", "atomic", "local (array)", "padded", "private (for)", "reduction","Location","SouthEast"),"FontSize",10);
+saveas(f,'sum_fig_30000','svg')
 
 %% Size 5000 without atomic and critical
 clf;
@@ -42,8 +42,8 @@ barh(bar_labels,sum_results_5000(:,[1,4,5,6,7]));
 xlabel("Time");
 ylabel("Threads");
 
-legend("serial", "local (array)", "padded", "private (for)", "reduction","Location","SouthEast");
-saveas(f,'fig3','svg')
+set(legend("serial", "local (array)", "padded", "private (for)", "reduction","Location","SouthEast"),"FontSize",10);
+saveas(f,'sum_scaled_5000','svg')
 
 %% Size 30000 without atomic and critical
 clf;
@@ -57,5 +57,5 @@ barh(bar_labels,sum_results_30000(:,[1,4,5,6,7]));
 xlabel("Time");
 ylabel("Threads");
 
-legend("serial", "local (array)", "padded", "private (for)", "reduction","Location","NorthEast");
-saveas(f,'fig4','svg')
+set(legend("serial", "local (array)", "padded", "private (for)", "reduction","Location","NorthEast"),"FontSize",10);
+saveas(f,'sum_scaled_30000','svg')
