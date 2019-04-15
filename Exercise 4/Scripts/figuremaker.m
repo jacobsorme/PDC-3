@@ -1,9 +1,9 @@
 clf;
 clc;
 
-run("../Results/matlabvars.m");
-x = [1..32];
-y = [50..50..1500];
+run("matlab_variables.m");
+x = [1:32];
+y = [50:50:1500];
 
 f = figure;
 
