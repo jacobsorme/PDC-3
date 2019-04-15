@@ -68,6 +68,9 @@ void omp_padded_sum(double *sum_ret)
     int padding_constant = 30;
     double *res = malloc(n * padding_constant * sizeof(double));
 
+    // Clear the positions in res to be used
+    for(int i = 0; i < n; i++) res[padding_constant*i] = 0; 
+
     #pragma omp parallel
     {
         int t = omp_get_thread_num();
