@@ -3,17 +3,17 @@ clc;
 
 run("matlab_variables.m");
 x = [1:32];
-y = [50:50:1000];
+y = [50:50:1500];
 
 f = figure;
 
-surf(x,y,times_nbody(1:20,:));
+surf(x,y,times_nbody);
 view(15,10);
 
 xlabel("Threads")
-ylabel("Nuber of bodies (N)")
+ylabel("Number of bodies (N)")
 zlabel("Time (s)")
 
-saveas(f,"../Figures/surf_ex4","svg");
+saveas(f,"../Figures/surf_ex4_2","svg");
 
 
