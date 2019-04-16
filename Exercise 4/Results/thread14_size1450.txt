@@ -1,0 +1,19 @@
+N       = 1450
+G       = 1.000000e+00
+dt      = 1.000000e+00
+EPS     = 1.000000e+00
+time    = 10
+Threads = 14
+checkpoints: every 0 steps
+step = 0, runtime: 0.016589
+step = 1, runtime: 0.016362
+step = 2, runtime: 0.016546
+step = 3, runtime: 0.017591
+step = 4, runtime: 0.016631
+step = 5, runtime: 0.017323
+step = 6, runtime: 0.016791
+step = 7, runtime: 0.016532
+step = 8, runtime: 0.016583
+step = 9, runtime: 0.017221
+Total runtime: 0.168256
+Application 19680717 resources: utime ~2s, stime ~0s, Rss ~6444, inblocks ~2947, outblocks ~7683
