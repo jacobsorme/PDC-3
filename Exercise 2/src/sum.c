@@ -65,7 +65,7 @@ void omp_padded_sum(double *sum_ret)
 {
     int n = omp_get_max_threads();
     // 1 double takes up padding_constant sizeof(double) in memory
-    int padding_constant = 30;
+    int padding_constant = 8; // Cache line size / sizeof(double)
     double *res = malloc(n * padding_constant * sizeof(double));
 
     // Clear the positions in res to be used
