@@ -66,6 +66,7 @@ void nbody(struct Body *bodies, int steps, int output_steps, int N, double G, do
 			bodies[j].old_position[2] = bodies[j].position[2];
 
 			if (checkpoint != NULL)
+				#pragma omp critical
 				fprintf(checkpoint, "%d\t%f\t%f\t%f\n\n\n", j, bodies[j].position[0], bodies[j].position[1], bodies[j].position[2]);
 		}
 
