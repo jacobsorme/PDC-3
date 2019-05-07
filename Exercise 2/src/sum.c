@@ -92,6 +92,7 @@ void omp_private_sum(double *sum_ret)
     double sum;
     #pragma omp parallel private(sum)
     {
+	    sum = 0;
         int t = omp_get_thread_num();
         for (int i = t; i < size; i += n) {
             sum += x[i];
